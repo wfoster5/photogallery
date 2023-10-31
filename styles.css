@@ -78,7 +78,7 @@ nav a:hover{
     color:#007d7b
 }
 
-}
+
 .bannerTop{
     background-color: #ffffff;
 }
@@ -142,11 +142,13 @@ label, [name]{
     margin-right: 10px;
 }
 .photos{
-    width: 1300px;
+    
     display: grid;
-    grid-template-columns:250px 250px 250px;
-    column-gap: 50px;
+    grid-template-columns:225px 225px 225px;
+    column-gap: 5px;
     justify-content:space-around;
+    justify-items: center;
+    padding-bottom: 10px;
     
 
 }
@@ -158,4 +160,5 @@ figcaption{
     top: 20px;
     padding: 5px;
     text-align: center;
+    font-size: 1em;
 }
