@@ -44,17 +44,17 @@ header{
 nav{
     background-color: #000000;
     height: 50px;
-    justify-content: right;
+    
 }
 nav li{
-    
+    text-align: right;
     display: inline-block;
-    justify-content: right;
+    
 }
 nav a{
-    justify-content: right;
+    text-align:end;
     color: #ffffff;
-    list-style: none;
+    text-decoration: none;
     font-size: 1.5em;
 }
 
