@@ -41,16 +41,21 @@ header{
     background-color: #ffffff;
     color: #ffffff;
 }
+nav{
+    background-color: #000000;
+    height: 50px;
+    justify-content: right;
+}
 nav li{
-    list-style: none;
+    
+    display: inline-block;
+    justify-content: right;
 }
 nav a{
-    background-color: #000000;
+    justify-content: right;
     color: #ffffff;
-    display: inline;
-    text-align: center;
-    
-    
+    list-style: none;
+    font-size: 1.5em;
 }
 
 
@@ -68,18 +73,7 @@ p{
 nav a:hover{
     color:#007d7b
 }
-li a {
-    color:#ffffff;
-    padding-left: 75px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.25em;
-}
-ul li{
-    display: inline;
-    top:-45px;
-    left:640px;
-    position: relative;
+
 }
 .bannerTop{
     background-color: #ffffff;
@@ -146,9 +140,10 @@ label, [name]{
 .photos{
     width: 1300px;
     display: grid;
-    grid-template-columns:375px 375px 375px;
-    
+    grid-template-columns:250px 250px 250px;
+    column-gap: 50px;
     justify-content:space-around;
+    
 
 }
 
