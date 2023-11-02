@@ -34,7 +34,7 @@ h3{
     visibility: hidden;
 }
 html{
-    background-color: #000000;
+    background-color: purple;
     font-family:Arial, Helvetica, sans-serif ;
 }
 header{
@@ -166,15 +166,14 @@ figcaption{
     main{
         max-width: 485px;
     }
-    .bannerTop{
-        max-width: 485px;
-    }
+   
     nav{
         max-width: 485px;
     }
     nav li{
         display: inline-block;
-        padding: 5px 40px;
+        padding: 5px 20px;
+        max-width: 485px;
     }
     html{
         max-width: 485px;
@@ -224,11 +223,16 @@ figcaption{
     .contact{
         justify-content: center;
         max-width: 485px;
-        padding-right: 825px;
+        
         
     }
     form{
         max-width: 485px;
+       
+    }
+    body{
+        max-width: 485px;
+        
     }
 
 
